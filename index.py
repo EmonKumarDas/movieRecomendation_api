@@ -7,7 +7,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 app = FastAPI()
 
-
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
